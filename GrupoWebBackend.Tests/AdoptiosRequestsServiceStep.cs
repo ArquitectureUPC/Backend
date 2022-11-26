@@ -23,6 +23,7 @@ namespace GrupoWebBackend.Tests
         private HttpClient _client;
         private Uri _baseUri;
         private AdoptionsRequestsResource AdoptionsRequests { get; set; }
+        
         private Task<HttpResponseMessage> Response { get; set; }
         private UserResource User { get; set; }
 
@@ -34,6 +35,7 @@ namespace GrupoWebBackend.Tests
         public void GivenTheEndpointHttpsLocalhostApiVAdoptionsRequestsIsAvailable(int port, int version)
         {
             _baseUri = new Uri($"https://localhost:{port}/api/v{version}/AdoptionsRequests");
+            
             _client = _factory.CreateClient(new WebApplicationFactoryClientOptions{BaseAddress = _baseUri});
         }
         
