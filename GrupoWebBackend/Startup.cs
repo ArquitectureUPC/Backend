@@ -75,8 +75,7 @@ namespace GrupoWebBackend
             string username;
             string password;
             
-            try
-            {
+            
                 // deserializeObject= new Credential();
                 var client = new SecretClient(new Uri("https://keyvaultarqui.vault.azure.net/"), new DefaultAzureCredential());
                 var cloudRsaKey = client.GetSecretAsync("prueba").Result.Value.Value;
@@ -100,18 +99,12 @@ namespace GrupoWebBackend
                 // Console.WriteLine($"{deserializeObject.hostname}");
                 // Console.WriteLine($"{deserializeObject.username}");
                 // Console.WriteLine($"{deserializeObject.password}");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-            
+   
             services.AddDbContext<AppDbContext>(options =>
             {
-                // options.UseInMemoryDatabase("GrupoWebBackend-api-in-memory");
+                options.UseInMemoryDatabase("GrupoWebBackend-api-in-memory");
 
-                options.UseMySQL($"server={hostname}; user={username}; database=adoptme-mysql; password={password}; port=3306");
+                // options.UseMySQL($"server={hostname}; user={username}; database=adoptme-mysql; password={password}; port=3306");
             });
             services.AddSwaggerGen(c =>
             {

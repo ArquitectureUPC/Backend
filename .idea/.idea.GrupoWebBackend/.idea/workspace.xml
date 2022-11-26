@@ -10,8 +10,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c0946c3-99d2-4862-9b43-d9f983b1f871" name="Changes" comment="convirtiendo">
+    <list default="true" id="9c0946c3-99d2-4862-9b43-d9f983b1f871" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Azure.Security.KeyVault.Keys.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Azure.Security.KeyVault.Secrets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/PublishOutputs.8524e64e0e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/PublishOutputs.93179d0d16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrupoWebBackend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/GrupoWebBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend.Tests/obj/Debug/net5.0/GrupoWebBackend.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupoWebBackend/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/bin/Debug/net5.0/GrupoWebBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/bin/Debug/net5.0/GrupoWebBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/bin/Debug/net5.0/GrupoWebBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/bin/Debug/net5.0/GrupoWebBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/GrupoWebBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/ref/GrupoWebBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/ref/GrupoWebBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/refint/GrupoWebBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GrupoWebBackend/obj/Debug/net5.0/refint/GrupoWebBackend.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +87,15 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Service Authentication&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.GrupoWebBackend">
+  <component name="RunManager" selected="Azure - Publish Web App.Publish GrupoWebBackend to Azure">
     <configuration name="Publish GrupoWebBackend to Azure" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
       <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/GrupoWebBackend/GrupoWebBackend.csproj" />
-      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="6de1a4dc-79b3-468e-b32d-b3cf57842892" />
       <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
       <option name="AZURE_WEB_APP_ID" value="/subscriptions/6de1a4dc-79b3-468e-b32d-b3cf57842892/resourceGroups/arquiBackend/providers/Microsoft.Web/sites/arquiBackend" />
       <option name="AZURE_WEB_APP_NAME" value="" />
@@ -70,15 +103,15 @@
       <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
       <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
       <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
-      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/0487b715-80bd-45c7-807b-95f282cdd029/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Web/serverfarms/GrupoWebBackend20220930090602Plan" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/6de1a4dc-79b3-468e-b32d-b3cf57842892/resourceGroups/arquiBackend/providers/Microsoft.Web/serverfarms/appsp-221114015609" />
       <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
       <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
-      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="B1" />
       <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
       <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
       <option name="AZURE_WEB_APP_IS_DEPLOY_TO_SLOT" value="0" />
       <option name="AZURE_WEB_APP_SLOT_NAME" value="" />
-      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="6de1a4dc-79b3-468e-b32d-b3cf57842892" />
       <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
       <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
       <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
@@ -207,7 +240,8 @@
       <workItem from="1669146187901" duration="1447000" />
       <workItem from="1669400769189" duration="1070000" />
       <workItem from="1669443915499" duration="3844000" />
-      <workItem from="1669467305013" duration="1156000" />
+      <workItem from="1669467305013" duration="5060000" />
+      <workItem from="1669474083593" duration="2438000" />
     </task>
     <task id="LOCAL-00001" summary="convirtiendo">
       <created>1669468073436</created>
@@ -216,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669468073436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final">
+      <created>1669468600655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468600655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +281,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="convirtiendo" />
-    <option name="LAST_COMMIT_MESSAGE" value="convirtiendo" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,19 +299,6 @@
           </properties>
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/GrupoWebBackend/Startup.cs</url>
-          <line>88</line>
-          <properties documentPath="C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\Startup.cs" initialLine="88" containingFunctionPresentation="method 'ConfigureServices'">
-            <startOffsets>
-              <option value="3750" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3774" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
