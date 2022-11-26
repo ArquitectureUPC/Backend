@@ -6,6 +6,7 @@ using GrupoWebBackend.DomainPublications.Domain.Models;
 using GrupoWebBackend.DomainPublications.Domain.Repositories;
 using GrupoWebBackend.DomainPublications.Domain.Services;
 using GrupoWebBackend.DomainPublications.Domain.Services.Communications;
+
 using GrupoWebBackend.DomainPublications.Resources;
 using GrupoWebBackend.Shared.Domain.Repositories;
 
@@ -58,7 +59,9 @@ namespace GrupoWebBackend.DomainPublications.Services
             if (existingPublication == null)
                 return new PublicationResponse("Publication not Found");
             existingPublication.Comment = publication.Comment;
+            
             existingPublication.DateTime = publication.DateTime;
+            
             existingPublication.PetId = publication.PetId;
             existingPublication.UserId = publication.UserId;
             
@@ -79,6 +82,7 @@ namespace GrupoWebBackend.DomainPublications.Services
         {
 
             var existingPublication = await _publicationRepository.FindByIdAsync(id);
+            
             if (existingPublication == null)
                 return new PublicationResponse("Pet not found.");
             try

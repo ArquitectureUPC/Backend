@@ -14,7 +14,7 @@ using NUnit.Framework;
 using SpecFlow.Internal.Json;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
-
+// con esto haremos las validaciones necesarias para el testeo de este servicio
 namespace GrupoWebBackend.Tests
 {
     [Binding]
