@@ -5134,7 +5134,6 @@ C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\Moq.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\MySql.Data.dll
-C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\Ubiety.Dns.Core.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\ZstdNet.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll

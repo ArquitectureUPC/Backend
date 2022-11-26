@@ -213,7 +213,7 @@ namespace GrupoWebBackend.Tests
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete An Advertisement", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 22
+#line 23
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -236,13 +236,13 @@ namespace GrupoWebBackend.Tests
 #line 5
     this.FeatureBackground();
 #line hidden
-#line 23
+#line 24
         testRunner.Given("the endpoint https://localhost:5001/api/v1/Advertisements/1 is available.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 24
+#line 25
         testRunner.When("an a deleting request is sent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 25
+#line 26
         testRunner.Then("a response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -257,7 +257,7 @@ namespace GrupoWebBackend.Tests
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Update An Advertisement with correct id and body", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 27
+#line 28
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -280,7 +280,7 @@ namespace GrupoWebBackend.Tests
 #line 5
     this.FeatureBackground();
 #line hidden
-#line 28
+#line 29
         testRunner.Given("the endpoint https://localhost:5001/api/v1/Advertisements/1 is available.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -299,10 +299,10 @@ namespace GrupoWebBackend.Tests
                             "https://www.lasamarillasdezipaquira.com/oc-content/uploads/1/352.jpg",
                             "true",
                             "1"});
-#line 29
+#line 30
         testRunner.When("An update Advertising request is sent", ((string)(null)), table3, "When ");
 #line hidden
-#line 32
+#line 33
         testRunner.Then("a response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

@@ -925,7 +925,6 @@ C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\De
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\MySql.Data.dll
-C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Ubiety.Dns.Core.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\ZstdNet.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Newtonsoft.Json.dll
@@ -956,3 +955,12 @@ C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\obj\De
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\obj\Debug\net5.0\GrupoWebBackend.pdb
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\obj\Debug\net5.0\GrupoWebBackend.genruntimeconfig.cache
 C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\obj\Debug\net5.0\ref\GrupoWebBackend.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Azure.Core.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Azure.Identity.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Azure.Security.KeyVault.Keys.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dylan\OneDrive\Documents\arquitecturagit\backend\GrupoWebBackend\bin\Debug\net5.0\System.Memory.Data.dll

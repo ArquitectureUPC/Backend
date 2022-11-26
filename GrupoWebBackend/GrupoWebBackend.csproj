@@ -7,6 +7,9 @@
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="10.1.1" />
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+        <PackageReference Include="Azure.Identity" Version="1.9.0-beta.1" />
+        <PackageReference Include="Azure.Security.KeyVault.Keys" Version="4.5.0-beta.1" />
+        <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.5.0-beta.1" />
         <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
@@ -17,6 +20,7 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.11" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.12" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="2.0.0-preview1-final" />
+        <PackageReference Include="MySql.Data" Version="8.0.31" />
         <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.8" />
         <PackageReference Include="SpecFlow" Version="3.9.22" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />

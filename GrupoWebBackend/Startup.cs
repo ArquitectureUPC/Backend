@@ -37,7 +37,13 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using GrupoWebBackend.Shared.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
-
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace GrupoWebBackend
 {
@@ -47,7 +53,6 @@ namespace GrupoWebBackend
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -63,9 +68,50 @@ namespace GrupoWebBackend
             
             // Configure AppSettings object 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+
+
+
+            string hostname;
+            string username;
+            string password;
+            
+            try
+            {
+                // deserializeObject= new Credential();
+                var client = new SecretClient(new Uri("https://keyvaultarqui.vault.azure.net/"), new DefaultAzureCredential());
+                var cloudRsaKey = client.GetSecretAsync("prueba").Result.Value.Value;
+                Console.WriteLine(cloudRsaKey);
+                dynamic data = JObject.Parse(cloudRsaKey);
+                Console.WriteLine(data.hostname);
+                Console.WriteLine(data.username);
+                Console.WriteLine(data.password);
+                
+                hostname+ 
+                    username
+                password
+
+                // String jsonString = JsonSerializer.Serialize(cloudRsaKey);
+                // var serializeObject = JObject.Parse(jsonString);
+                // Console.WriteLine(serializeObject.SelectToken("hostname").Values<string>());
+                // deserializeObject.hostname = serializeObject.SelectToken("hostname").Value<String>();
+                // deserializeObject.password = serializeObject.SelectToken("password").Value<String>();
+                // deserializeObject.username = serializeObject.SelectToken("username").Value<String>();
+                // deserializeObject    = JsonConvert.DeserializeObject<Credential>(serializeObject);
+                // Console.WriteLine($"{deserializeObject.hostname}");
+                // Console.WriteLine($"{deserializeObject.username}");
+                // Console.WriteLine($"{deserializeObject.password}");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+            
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase("GrupoWebBackend-api-in-memory");
+
+                // options.UseMySQL($"server={deserializeObject.hostname}; user={deserializeObject.username}; database=adoptme-mysql; password={deserializeObject.password}; port=3306");
             });
             services.AddSwaggerGen(c =>
             {
