@@ -85,10 +85,10 @@ namespace GrupoWebBackend
                 Console.WriteLine(data.hostname);
                 Console.WriteLine(data.username);
                 Console.WriteLine(data.password);
-                
-                hostname+ 
-                    username
-                password
+
+                hostname = data.hostname;
+                username = data.username;
+                password = data.password;
 
                 // String jsonString = JsonSerializer.Serialize(cloudRsaKey);
                 // var serializeObject = JObject.Parse(jsonString);
@@ -109,9 +109,9 @@ namespace GrupoWebBackend
             
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseInMemoryDatabase("GrupoWebBackend-api-in-memory");
+                // options.UseInMemoryDatabase("GrupoWebBackend-api-in-memory");
 
-                // options.UseMySQL($"server={deserializeObject.hostname}; user={deserializeObject.username}; database=adoptme-mysql; password={deserializeObject.password}; port=3306");
+                options.UseMySQL($"server={hostname}; user={username}; database=adoptme-mysql; password={password}; port=3306");
             });
             services.AddSwaggerGen(c =>
             {
