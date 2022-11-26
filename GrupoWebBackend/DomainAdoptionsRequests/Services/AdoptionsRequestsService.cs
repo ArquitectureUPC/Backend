@@ -8,6 +8,7 @@ using GrupoWebBackend.DomainPets.Domain.Repositories;
 using GrupoWebBackend.Shared.Persistence.Repositories;
 using GrupoWebBackend.Shared.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
+
 using System.Linq;
 using GrupoWebBackend.DomainAdoptionsRequests.Domain.Services.Communications;
 using GrupoWebBackend.DomainPublications.Domain.Repositories;
@@ -20,9 +21,7 @@ namespace GrupoWebBackend.DomainAdoptionsRequests.Services
     public class AdoptionsRequestsService:IAdoptionsRequestsService
     {
         private readonly IAdoptionsRequestsRepository _requestsAdoptionsRepository;
-
         private readonly IUnitOfWork _unitOfWork;
-        
         private readonly IPublicationRepository _publicationRepository;
 
         public AdoptionsRequestsService(IAdoptionsRequestsRepository adoptionsRequestsRepository,
