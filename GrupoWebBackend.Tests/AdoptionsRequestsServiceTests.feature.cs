@@ -23,9 +23,7 @@ namespace GrupoWebBackend.Tests
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
-        
         private string[] _featureTags = ((string[])(null));
-        
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
 #line 1 "AdoptionsRequestsServiceTests.feature"
